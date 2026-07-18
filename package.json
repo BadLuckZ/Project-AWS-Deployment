@@ -1,0 +1,29 @@
+{
+  "name": "aws-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend/app.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch backend/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BadLuckZ/Project-AWS-Deployment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BadLuckZ/Project-AWS-Deployment/issues"
+  },
+  "homepage": "https://github.com/BadLuckZ/Project-AWS-Deployment#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.1.1",
+    "typescript": "^7.0.2"
+  }
+}

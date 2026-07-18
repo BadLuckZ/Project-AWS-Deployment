@@ -1,0 +1,13 @@
+import express, { type Express, type Request, type Response } from "express";
+
+const app: Express = express();
+
+app.get("/", (req: Request, res: Response) => {
+  res.send("Hello World!");
+});
+
+const port = 3000;
+
+app.listen(port, () => {
+  console.log(`App is running at http://localhost:${port}`);
+});
