@@ -18,7 +18,7 @@ app.get("/api/status", (req: Request, res: Response) => {
   });
 });
 
-const port = process.env.PORT ?? 5500;
+const port = process.env.PORT ?? 3000;
 
 app.listen(port, () => {
   console.log(`App is running at http://localhost:${port}`);
