@@ -13,7 +13,7 @@ app.get("/api/status", (req: Request, res: Response) => {
   res.json({
     status: "ok",
     timestamp: new Date().toISOString(),
-    message: "Service is healthy",
+    message: "Pass",
     environment: process.env.NODE_ENV ?? "development",
   });
 });
